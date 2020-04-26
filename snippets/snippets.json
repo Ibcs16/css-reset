@@ -1,0 +1,30 @@
+{
+	"Resets default styles" : { 
+		"scope": "css,html,javascript,javascriptreact, typescript, typescriptreact",
+		"prefix": "cssr", 
+		"body": [  
+			"* {",
+			"  margin: 0;",     
+			"  padding: 0;",
+			"  outline: 0;",
+			"  box-sizing: border-box;",   
+			"}",
+			"",
+			"body {",
+			" background: $1;",
+			" color: $2;",
+			" -webkit-font-smoothing: antialiased;",
+			"}",
+			"",
+			"body, input, button {",
+			" font-size: $3;",
+			" font-family: $4;",
+			"}",
+			"",
+			"button {",
+			" cursor: pointer;",
+			"}"
+		],
+		"description": "Resets margin, padding, outline and box-sizing"
+	}
+}
