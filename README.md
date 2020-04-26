@@ -1,5 +1,4 @@
-# css-reset README
-
+# css-reset
 css-reset gets rid of some of the boring default css properties.
 
 ## Support
