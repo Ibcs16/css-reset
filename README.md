@@ -3,7 +3,7 @@ css-reset gets rid of some of the boring default css properties.
 
 ## Support
 
-css-reset offers supports for html, css, scss, html, jasvascript/javascriptreact, typescrip/typescriptreact
+css-reset offers supports for html, css, scss, html, jasvascript/javascriptreact, typescript/typescriptreact
 
 ## Features
 
