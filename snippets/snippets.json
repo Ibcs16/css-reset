@@ -26,5 +26,45 @@
 			"}"
 		],
 		"description": "Resets margin, padding, outline and box-sizing"
+	},
+	"Resets default styles with styled-component": {
+		"scope": "css,html,javascript,javascriptreact, typescript, typescriptreact",
+		"prefix": "cssr-sc", 
+		"body": [
+			"import { createGlobalStyle } from 'styled-components';",
+			"",
+			"export default createGlobalStyle`",
+			"",
+			" * {",
+			"  margin: 0;",
+			"  padding: 0;",
+			"  outline: 0;",
+			"  box-sizing: border-box;",
+			" }",
+			"",
+			" body {",
+			"  background: $0;",
+			"  color: $1;",
+			"  -webkit-font-smoothing: antialiased;",
+			" }",
+			"",
+			" body, input, button, table {",
+			"  font-size: $2;",
+			"  font-family: $3;",
+			" }",
+			"",
+			" #root {",
+			"  margin: $4;",
+			"  padding: $5;",
+			"  max-width: $6;",
+			" }",
+			"",
+			" button {",
+			"  cursor: pointer;",
+			" }",
+			"`"
+		],
+		"description": "Resets margin, padding, outline and box-sizing"
+
 	}
 }

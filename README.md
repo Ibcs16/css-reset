@@ -4,6 +4,7 @@ css-reset gets rid of some of the boring default css properties.
 ## Support
 
 css-reset offers supports for html, css, scss, html, jasvascript/javascriptreact, typescript/typescriptreact
+css-reset offer supports for styled-components
 
 ## Features
 
@@ -12,8 +13,10 @@ Simple reset of default css properties
 ## Commands
 
 `cssr` - resets margin, padding, outline, box-sizing, button cursor and more
+`cssr-sc` - (styled-components) resets margin, padding, outline, box-sizing, button cursor and more
 
-![Resetting properties](screenshots/demo.gif)
+![Resetting properties with cssr](screenshots/demo.gif)
+![Resetting properties with cssr-sc](screenshots/demo-sc.gif)
 
 ## Release Notes
 
@@ -22,3 +25,7 @@ I'm glad to announce my first release
 ### 1.0.0
 
 Initial release of css-reset
+
+### 2.0.0
+
+Adds support for styled-components global styling reset
