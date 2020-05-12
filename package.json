@@ -3,7 +3,7 @@
     "name": "css-reset",
     "displayName": "css-reset",
     "description": "Reset css margins, paddings and more",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "repository": "https://github.com/Ibcs16/css-reset",
     "icon": "assets/logo.png",
     "engines": {
